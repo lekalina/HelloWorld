@@ -14,6 +14,8 @@
 		2352282F22A953DB0046DFB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2352282D22A953DB0046DFB5 /* LaunchScreen.storyboard */; };
 		2352283A22A953DB0046DFB5 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352283922A953DB0046DFB5 /* HelloWorldTests.swift */; };
 		2352284522A953DB0046DFB5 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352284422A953DB0046DFB5 /* HelloWorldUITests.swift */; };
+		2352285322A992B20046DFB5 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352285222A992B20046DFB5 /* APIController.swift */; };
+		2352285522A999920046DFB5 /* MajorStockIndexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352285422A999920046DFB5 /* MajorStockIndexes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2352284022A953DB0046DFB5 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2352284422A953DB0046DFB5 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		2352284622A953DB0046DFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2352285222A992B20046DFB5 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		2352285422A999920046DFB5 /* MajorStockIndexes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorStockIndexes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2352282B22A953DB0046DFB5 /* Assets.xcassets */,
 				2352282D22A953DB0046DFB5 /* LaunchScreen.storyboard */,
 				2352283022A953DB0046DFB5 /* Info.plist */,
+				2352285222A992B20046DFB5 /* APIController.swift */,
+				2352285422A999920046DFB5 /* MajorStockIndexes.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				2352282722A953D90046DFB5 /* ViewController.swift in Sources */,
 				2352282522A953D90046DFB5 /* AppDelegate.swift in Sources */,
+				2352285322A992B20046DFB5 /* APIController.swift in Sources */,
+				2352285522A999920046DFB5 /* MajorStockIndexes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
